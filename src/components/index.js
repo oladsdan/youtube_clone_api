@@ -5,3 +5,4 @@ export {default as SearchFeed} from './SearchFeed.jsx';
 export {default as VideoDetails} from './VideoDetails.jsx';
 export {default as SearchBar} from './SearchBar.jsx';
 export {default as Sidebar} from './Sidebar.jsx';
+export {default as VideosDisplay} from './VideosDisplay.jsx';
