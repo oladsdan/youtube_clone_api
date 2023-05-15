@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import HomeIcon from '@mui/icons-material/Home';
+import CodeIcon from '@mui/icons-material/Code';
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import LiveTvIcon from '@mui/icons-material/LiveTv';
+import SchoolIcon from '@mui/icons-material/School';
+import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
+import CheckroomIcon from '@mui/icons-material/Checkroom';
+import GraphicEqIcon from '@mui/icons-material/GraphicEq';
+import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
+import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
-## Available Scripts
+export const categories = [
+  { name: 'New', icon: <HomeIcon />, },
+  { name: 'JS Mastery', icon: <CodeIcon />, },
+  { name: 'Coding', icon: <CodeIcon />, },
+  { name: 'ReactJS', icon: <CodeIcon />, },
+  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'Music', icon: <MusicNoteIcon /> },
+  { name: 'Education', icon: <SchoolIcon />, },
+  { name: 'Podcast', icon: <GraphicEqIcon />, },
+  { name: 'Movie', icon: <OndemandVideoIcon />, },
+  { name: 'Gaming', icon: <SportsEsportsIcon />, },
+  { name: 'Live', icon: <LiveTvIcon />, },
+  { name: 'Sport', icon: <FitnessCenterIcon />, },
+  { name: 'Fashion', icon: <CheckroomIcon />, },
+  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
+  { name: 'Comedy', icon: <TheaterComedyIcon />, },
+  { name: 'Gym', icon: <FitnessCenterIcon />, },
+  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+];
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
+export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
+export const demoVideoUrl = '/video/GDa8kZLNhJ4';
+export const demoChannelTitle = 'JavaScript Mastery';
+export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
+export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'

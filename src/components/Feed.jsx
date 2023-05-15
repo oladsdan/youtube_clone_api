@@ -35,6 +35,7 @@ const Feed = () => {
         </Typography>
         <VideosDisplay videos={videos} />
       </Box>
+      
     </Stack>
   )
 }
