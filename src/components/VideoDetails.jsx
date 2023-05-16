@@ -24,7 +24,7 @@ const VideoDetails = () => {
 
   },[id]);
 
-  if (!videoDetail?.snippet && !videosRelated) return 'Loading....';
+  if (!videoDetail?.snippet) return 'Loading....';
 
   const{ snippet: {title, channelId, channelTitle}, statistics: {
     viewCount, likeCount 
